@@ -1,0 +1,28 @@
+default:
+  properties:
+    proxy.enabled: false
+    proxy.ip: 127.0.0.1
+    proxy.port: 9000
+    timings.implicitTimeout: 10
+    allure.report: true
+    allure.create.enviroment: true
+    webdriver.type: chrome
+    webdriver.chrome.driver: C:\New folder\selenium-test-case\bobcat-cucumber-framework\chromedriver.exe
+    author.url: http://127.0.0.2:4502
+    author.ip: http://127.0.0.2:4502
+    author.login: admin
+    author.password: admin
+    login.token.name: login-token
+
+    publish.url: http://localhost:4502
+    publish.ip: http://localhost:4502
+    publish.login: admin
+    publish.password: admin
+    parsys.locator.format: div.parsys.%s
+    component.locator.format: div.%s
+    parsys.finder.offset: 6
+    modifiers.implicitTimeout: false
+    timings.explicitTimeout: 2
+    timings.pollingInterval: 400
+
+

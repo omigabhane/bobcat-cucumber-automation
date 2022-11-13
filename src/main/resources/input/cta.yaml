@@ -1,0 +1,7 @@
+Properties:
+  - label: Text *
+    type: TEXTFIELD
+    value: Contact us
+  - label: Link *
+    type: INPUT_GROUP
+    value: /conyenr/hffvfdjy
